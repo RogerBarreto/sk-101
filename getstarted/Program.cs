@@ -31,7 +31,7 @@ Console.WriteLine(await kernel.InvokePromptAsync("Create an attractive maroon an
 //var result = await kernel.InvokePromptAsync("What color is the {{$topic}}?", arguments);
 
 //Console.WriteLine(result);
-/*var openAISettings = new OpenAIPromptExecutionSettings { ResponseFormat = OpenAI.Chat.ChatResponseFormat.CreateJsonObjectFormat(), MaxTokens = 50 };
+/*var openAISettings = new OpenAIPromptExecutionSettings { MaxTokens = 50 };
 
 KernelArguments arguments = new(openAISettings) { { "topic", "sea" } };
 
